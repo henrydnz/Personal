@@ -1,0 +1,50 @@
+ Welcome to Novum Coliseum.
+ Novum Coliseum is an RPG terminal game, based on another 
+much, much complex RPG game of the same name, made 
+by a friend of mine. That's how it works:
+
+ Novum Coliseum is a simple turn based RPG. The main three
+actions you can choose is to run forward or backwards
+and attack.
+
+Players:
+ Players have 30 HP in total, and will always start with a 
+distance of 8 steps from each other. 
+
+Running:
+ In the beginning, the only two options for action
+are running, forward or backwards. But keep in mind that
+the maximum distance between players is 12 steps, and
+the minimum is 1. 
+ If player chooses to run, they throw two d4 dices, and
+run an amount of steps according to the sum of the
+dice values.
+
+Attacking
+ To be able to attack, the maximum distance required is 3 
+steps from each other. Otherwise you will only be able to 
+run. 
+ When player attacks, they throw two d20 dices, and their 
+Attack Point (AP) is defined by the maximum value gotten.
+ Then, the opponent throws another two d20, getting their
+Defense Points (DP), defined as well by their maximum
+value in the dices.
+ If the player gets a Critical Attack (20 AP), they will
+roll three d8 dices, and will deal the damage according to 
+the sum of all the values. Otherwise, if only the AP points
+are greater than the DP, the player throws only two d8 and
+deals damage according, as well, to the sum of the values.
+ The opponent can get a Critical Defense (20 DP), and in 
+that case, they will reflect the attack to the player. The 
+reflection damage is inversely proportional to the opponent's 
+HP. The minimum reflection rate, related to 30 HP, is 2 points
+of damage, while the maximum, related to 1hp, is 20 points.
+
+Game modes
+ The game has two main game modes: Multiplayer, that let you
+play with a friend, and Single Player, that let you play
+with Novum Bot auto player.
+
+That's all. Have fun! ;)
+
+ 
