@@ -13,6 +13,6 @@ flag for that; dont know how yet;
 
 ,>,                       inp cell(0) cell(1)
 >>++++++++[<++++++>-]     mov cell(2) '0'
-<[<->-]                   sub cell(1) '0'
+<[<->-]                   sub cell(1) cell(2)
 <[<+>-]                   add cell(0) cell(1)
 <.                        print cell(0)
