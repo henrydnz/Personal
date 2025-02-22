@@ -1,3 +1,5 @@
+# simple game about guessing a number between 0 ans 100
+
 from random import randint
 
 def eraseLines(count) -> None:
@@ -21,20 +23,17 @@ class Game:
         print(f"You win! Secret number was {self.rand_number}")
         return self.tries
 
-
 def play() -> None:
     current_game: Game = Game()
     score = current_game.round()
     return score
 
-def main():
+def main() -> None:
     max_score = 0
     while not input("enter to play"):
         score = play()
         max_score = max(score, max_score)
         print(f"max score: {max_score}")
-
-
 
 if __name__ == "__main__":
     main()

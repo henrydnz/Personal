@@ -1,3 +1,5 @@
+//exploring rpg pvp design in c
+
 #include <stdio.h>
 
 void stats(int atk, int hp) {

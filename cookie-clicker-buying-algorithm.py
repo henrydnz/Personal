@@ -1,4 +1,9 @@
-from multiprocessing.sharedctypes import Value
+# this is a simple code I made to help me buying stuff in cookie clicker
+# based in the ratio between price and production of an item.
+# the one with the lowest ratio will be the better to buy
+# user adds and removes items and edit prices and productions.
+# code returns a ordered list of ratio per item, lowest to greatest.
+
 import os
 
 def clear() -> None:

@@ -1,3 +1,5 @@
+    //learning structs in c
+    
     #include <stdio.h>
     #include <ctype.h>
     #include <string.h>

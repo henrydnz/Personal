@@ -1,3 +1,6 @@
+//tictactoe in cpp
+//not fully done yet
+
 #include <bits/stdc++.h>
 #include <stdlib.h>
 

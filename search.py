@@ -1,4 +1,6 @@
-def search(n, max):
+# exploring a number searcher algorithm
+
+def search(n, max) -> int:
     search = 0
     i = 0
 
@@ -11,7 +13,7 @@ def search(n, max):
         if search < n: search += sum  
         i+=1
 
-    return i # iteracoes
+    return i # iterations
 
 while True:
 
