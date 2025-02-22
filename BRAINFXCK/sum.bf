@@ -11,7 +11,7 @@ is larger than 9) its no longer gonna
 return a number; I gotta make a carry
 flag for that; dont know how yet;
 
-,>,                       inp cell(1) cell(2)
+,>,                       inp cell(0) cell(1)
 >>++++++++[<++++++>-]     mov cell(2) '0'
 <[<->-]                   int cell(1)
 <[<+>-]                   add cell(0) cell(1)
